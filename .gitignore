@@ -1,0 +1,42 @@
+# Ignore everything
+*
+
+# track .gitignore
+!.gitignore
+
+# track .sv
+!*.sv
+
+# track testcode
+!/testcode/
+!testcode/*.asm
+
+# track reports
+!/reports/
+!reports/*
+
+# track simulation/modelsim
+!/simulation/
+!/simulation/modelsim/
+!/simulation/modelsim/*.do
+/simulation/modelsim/*_run_msim_rtl_verilog.do
+
+# track assembler
+!LC3bAssembler
+
+# track txt files
+!ToDo.txt
+!modelsim_do_example.txt
+!CP1_Report.txt
+
+# track shell commands
+!*.sh
+
+# track timing analysis file
+!mp3.out.sdc
+
+#track LC_3X stuff
+!/compile_LC_3X/
+!*.cpp
+
+
