@@ -39,4 +39,5 @@
 !/compile_LC_3X/
 !*.cpp
 
-
+#track test wave
+!test_wave.do
