@@ -33,7 +33,7 @@
 !*.sh
 
 # track timing analysis file
-!mp3.out.sdc
+!timing_tutorial.out.sdc
 
 #track LC_3X stuff
 !/compile_LC_3X/
