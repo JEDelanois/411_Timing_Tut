@@ -17,33 +17,25 @@ always_comb
 		six = 8'h06;
 	end
 
-mux8 #(8) mux1
+mux4 #(8) mux1
 (
-	 .sel({1'b0, sel_0}),
+	 .sel(sel_0),
 	 .a(in_0), 
 	 .b(one),
 	 .c(two),
 	 .d(three),
-	 .e(),
-	 .f(),
-	 .g(),
-	 .h(),
-	 .z(out_0)
+	 .f(out_0)
 );
 
 
-mux8 #(8) mux2
+mux4 #(8) mux2
 (
-	 .sel({1'b0, sel_1}),
+	 .sel(sel_1),
 	 .a(in_1), 
 	 .b(four),
 	 .c(five),
 	 .d(six),
-	 .e(),
-	 .f(),
-	 .g(),
-	 .h(),
-	 .z(out_1)
+	 .f(out_1)
 );
 
 
